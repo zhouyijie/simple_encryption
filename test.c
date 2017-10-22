@@ -42,6 +42,7 @@ int main(void){
                 }
                 shift = shift + token -'0';
                 //printf("%d\n",shift);
+                shift = shift % 26;
                 
             }
             else if (token = 10){
